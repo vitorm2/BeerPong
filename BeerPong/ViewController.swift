@@ -13,12 +13,17 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
-    var ringQueue: [SCNNode] = []
     var scene: SCNScene!
     var initalY: CGFloat = 0.0
     
+    var ball: SCNNode!
+    
+    var count = 0
+    
+    @IBOutlet weak var messageLabel: UILabel!
     var directionalLightNode: SCNNode?
     var ambientLightNode: SCNNode?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,29 +31,33 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         // Set the view's delegate
         sceneView.delegate = self
         
-        
-        
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
         // Create a new scene
         scene = SCNScene(named: "art.scnassets/MainScene.scn")!
+    
         
-        
-        sceneView.debugOptions = SCNDebugOptions.showPhysicsShapes
-        
-        createRing()
+//        createBall()
         
         // Set the scene to the view
         sceneView.scene = scene
         sceneView.session.delegate = self
         
         let swipeUpGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan(_:)))
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        
+        sceneView.scene.physicsWorld.contactDelegate = self
+        scene.physicsWorld.contactDelegate = self
+        
         sceneView.addGestureRecognizer(swipeUpGesture)
+        sceneView.addGestureRecognizer(tapGesture)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+         sceneView.session.delegate = self
         
         ambientLightNode = sceneView.scene.rootNode.childNode(withName: "ambientLight", recursively: false)
         directionalLightNode = sceneView.scene.rootNode.childNode(withName: "directionalLight", recursively: false)
@@ -83,53 +92,60 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
             let finalY = gestureRecognize.location(in: gestureRecognize.view).y
             let finalX = gestureRecognize.location(in: gestureRecognize.view).x
             let displacement = initalY - finalY
-            throwRing(displacement: displacement, finalX: finalX)
+            throwBall(displacement: displacement, finalX: finalX)
         }
         
     }
     
-    func throwRing(displacement: CGFloat, finalX: CGFloat) {
+    @objc
+    func handleTap(_ gestureRecognize: UISwipeGestureRecognizer) {
         
-        ringQueue.last?.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
-
-        let randomY: Float = Float(displacement/30.0)
-        let randomX: Float = 0
-
-        let force = SCNVector3(x: randomX, y: randomY , z: -2.0)
-        // 3
-        let position = SCNVector3(x: 0.05, y: 0.05, z: 0.05)
-        // 4
-
-        ringQueue.last?.physicsBody?.applyForce(force, at: position, asImpulse: true)
-
-
-//        guard let frame = sceneView.session.currentFrame else { return }
-//        let camMatrix = SCNMatrix4(frame.camera.transform)
-//        let direction = SCNVector3Make(-camMatrix.m31 * 5.0, -camMatrix.m32 * 10.0, (-camMatrix.m33 * 5.0))
-//        let position = SCNVector3Make(camMatrix.m41, camMatrix.m42, (camMatrix.m43))
-//
-//        let ballNode = ringQueue.last!
-//        ballNode.position = position
-//        ballNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
-//        ballNode.physicsBody?.categoryBitMask = 3
-//        ballNode.physicsBody?.contactTestBitMask = 1
-//        sceneView.scene.rootNode.addChildNode(ballNode)
-//        ballNode.physicsBody?.applyForce(direction, asImpulse: true)
-//
-//
+      throwBall(displacement: 10, finalX: 0)
+        
     }
     
-    func createRing() {
+    func throwBall(displacement: CGFloat, finalX: CGFloat) {
+        
+//        let geometry: SCNGeometry = SCNSphere(radius: 0.02)
+//        ball = SCNNode(geometry: geometry)
+//
+//        geometry.materials.first?.diffuse.contents = UIColor.white
+//        ball.position = SCNVector3(0, 0, -0.5)
+//        ball.physicsBody?.contactTestBitMask = 1
+//        ball.physicsBody?.categoryBitMask = 3
+//        ball.physicsBody?.collisionBitMask = -1
+//
+//        ball.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
+//        sceneView.pointOfView?.addChildNode(ball)
+        let randomY: Float = Float(displacement/30.0)
+//        let randomX: Float = Float(finalX/20)
+//
+//        print(finalX)
+//
+//        let force = SCNVector3(x: randomX, y: randomY , z: -2.5)
+//
+//        let position = SCNVector3(x: 0.05, y: 0.05, z: 0.05)
+//
+//        ball.physicsBody?.applyForce(force, at: position, asImpulse: true)
+//        ball.runAction(SCNAction.sequence([SCNAction.wait(duration: 3.0), SCNAction.removeFromParentNode()])) //5
+
+
+        guard let frame = sceneView.session.currentFrame else { return }
+        let camMatrix = SCNMatrix4(frame.camera.transform)
+        let direction = SCNVector3Make(-camMatrix.m31 * 5.0, randomY, (-camMatrix.m33 * 4.0))
+        let position = SCNVector3Make(camMatrix.m41, camMatrix.m42, (camMatrix.m43))
+
         let geometry: SCNGeometry = SCNSphere(radius: 0.02)
-        let newRing = SCNNode(geometry: geometry)
-        geometry.materials.first?.diffuse.contents = UIColor.white
-        newRing.position = SCNVector3(0, -0.5, -1)
-        newRing.physicsBody?.collisionBitMask =  0
-        newRing.physicsBody?.contactTestBitMask = 0
+        let ballNode = SCNNode(geometry: geometry)
+        ballNode.position = position
+        ballNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
+        ballNode.physicsBody?.categoryBitMask = 3
+        ballNode.physicsBody?.contactTestBitMask = 1
+        ballNode.physicsBody?.collisionBitMask = -1
+        sceneView.scene.rootNode.addChildNode(ballNode)
+        ballNode.physicsBody?.applyForce(direction, asImpulse: true)
+        ballNode.runAction(SCNAction.sequence([SCNAction.wait(duration: 3.0), SCNAction.removeFromParentNode()]))
 
-        sceneView.pointOfView?.addChildNode(newRing)
-
-        ringQueue.append(newRing)
     }
 
     
@@ -151,7 +167,26 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
     
     
     
+    
+    
 }
+
+extension ViewController: SCNPhysicsContactDelegate {
+    func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
+        
+        let contactObject = contact.nodeA.physicsBody!.contactTestBitMask == 3 ? contact.nodeA : contact.nodeB
+        
+        if contactObject.name == "cup1_sensor" {
+            //messageLabel.isHidden = false
+            count = count + 1
+            messageLabel.text = String(count)
+            print("ACERTOU A BOLINHA!")
+        }
+       
+    }
+}
+
+
 
 
 
