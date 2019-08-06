@@ -1,0 +1,507 @@
+total 8
+drwxr-xr-x   7 adrianoramos  staff  224 Aug  6 14:33 .
+drwxr-xr-x@ 21 adrianoramos  staff  672 Aug  6 14:32 ..
+	com.apple.FinderInfo	 32 
+	com.apple.metadata:_kMDItemUserTags	 52 
+	com.apple.metadata:kMDItemWhereFroms	 55 
+	com.apple.metadata:kMDLabel_rokw2bmv5agubgthc6ltxrfyoq	249 
+drwxr-xr-x  13 adrianoramos  staff  416 Aug  6 10:21 .git
+drwxr-xr-x   8 adrianoramos  staff  256 Aug  6 13:50 BeerPong
+drwxr-xr-x@  5 adrianoramos  staff  160 Aug  6 14:31 BeerPong.xcodeproj
+	LastUpgradeCheck	  4 
+	com.apple.FinderInfo	 32 
+	com.apple.lastuseddate#PS	 16 
+-rw-r--r--   1 adrianoramos  staff   20 Aug  5 17:21 README.md
+-rw-r--r--   1 adrianoramos  staff    0 Aug  6 14:33 kundapura.txt
+
+./.git:
+total 48
+drwxr-xr-x  13 adrianoramos  staff   416 Aug  6 10:21 .
+drwxr-xr-x   7 adrianoramos  staff   224 Aug  6 14:33 ..
+-rw-r--r--   1 adrianoramos  staff   101 Aug  6 10:26 FETCH_HEAD
+-rw-r--r--   1 adrianoramos  staff    23 Aug  5 17:21 HEAD
+-rw-r--r--   1 adrianoramos  staff   309 Aug  5 17:21 config
+-rw-r--r--   1 adrianoramos  staff    73 Aug  5 17:21 description
+drwxr-xr-x  13 adrianoramos  staff   416 Aug  5 17:21 hooks
+-rw-r--r--   1 adrianoramos  staff  2492 Aug  5 17:22 index
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 info
+drwxr-xr-x   4 adrianoramos  staff   128 Aug  5 17:21 logs
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 objects
+-rw-r--r--   1 adrianoramos  staff   114 Aug  5 17:21 packed-refs
+drwxr-xr-x   5 adrianoramos  staff   160 Aug  5 17:21 refs
+
+./.git/hooks:
+total 96
+drwxr-xr-x  13 adrianoramos  staff   416 Aug  5 17:21 .
+drwxr-xr-x  13 adrianoramos  staff   416 Aug  6 10:21 ..
+-rwxr-xr-x   1 adrianoramos  staff   478 Aug  5 17:21 applypatch-msg.sample
+-rwxr-xr-x   1 adrianoramos  staff   896 Aug  5 17:21 commit-msg.sample
+-rwxr-xr-x   1 adrianoramos  staff  3327 Aug  5 17:21 fsmonitor-watchman.sample
+-rwxr-xr-x   1 adrianoramos  staff   189 Aug  5 17:21 post-update.sample
+-rwxr-xr-x   1 adrianoramos  staff   424 Aug  5 17:21 pre-applypatch.sample
+-rwxr-xr-x   1 adrianoramos  staff  1638 Aug  5 17:21 pre-commit.sample
+-rwxr-xr-x   1 adrianoramos  staff  1348 Aug  5 17:21 pre-push.sample
+-rwxr-xr-x   1 adrianoramos  staff  4898 Aug  5 17:21 pre-rebase.sample
+-rwxr-xr-x   1 adrianoramos  staff   544 Aug  5 17:21 pre-receive.sample
+-rwxr-xr-x   1 adrianoramos  staff  1492 Aug  5 17:21 prepare-commit-msg.sample
+-rwxr-xr-x   1 adrianoramos  staff  3610 Aug  5 17:21 update.sample
+
+./.git/info:
+total 8
+drwxr-xr-x   3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  13 adrianoramos  staff  416 Aug  6 10:21 ..
+-rw-r--r--   1 adrianoramos  staff  240 Aug  5 17:21 exclude
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 adrianoramos  staff  128 Aug  5 17:21 .
+drwxr-xr-x  13 adrianoramos  staff  416 Aug  6 10:21 ..
+-rw-r--r--   1 adrianoramos  staff  200 Aug  5 17:21 HEAD
+drwxr-xr-x   4 adrianoramos  staff  128 Aug  5 17:21 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 ..
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 heads
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 remotes
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff  200 Aug  5 17:21 master
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 ..
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 origin
+
+./.git/logs/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff  200 Aug  5 17:21 HEAD
+
+./.git/objects:
+total 0
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 .
+drwxr-xr-x  13 adrianoramos  staff   416 Aug  6 10:21 ..
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 0b
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 0c
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 18
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 1c
+drwxr-xr-x   4 adrianoramos  staff   128 Aug  5 17:21 27
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 2d
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 31
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 35
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 40
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 44
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 48
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 57
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 5c
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 60
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 78
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 7b
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 99
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 a4
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 a7
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 ad
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 b6
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 bf
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 c1
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 c4
+drwxr-xr-x   4 adrianoramos  staff   128 Aug  5 17:21 d5
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 d8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 da
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 dc
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 eb
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 f4
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 fc
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 fe
+drwxr-xr-x   2 adrianoramos  staff    64 Aug  5 17:21 info
+drwxr-xr-x   2 adrianoramos  staff    64 Aug  5 17:21 pack
+
+./.git/objects/0b:
+total 1232
+drwxr-xr-x   3 adrianoramos  staff      96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff    1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff  629750 Aug  5 17:21 422e6039297c594f0602841bfba798599769c1
+
+./.git/objects/0c:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    95 Aug  5 17:21 83826c5911d35129836cadf9726902df6ca25b
+
+./.git/objects/18:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   206 Aug  5 17:21 d981003d68d0546c4804ac2ff47dd97c6e7921
+
+./.git/objects/1c:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   132 Aug  5 17:21 f9d9fc5f5b4e213d3018e7a0c8a4ff3b3a062a
+
+./.git/objects/27:
+total 16
+drwxr-xr-x   4 adrianoramos  staff   128 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    71 Aug  5 17:21 04f1bac281f64e5f2428ddd1d7401e494bccdf
+-r--r--r--   1 adrianoramos  staff    58 Aug  5 17:21 08767942efb50b50b9a3c79288121cd70a2a9f
+
+./.git/objects/2d:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   101 Aug  5 17:21 3348d87704fa6b151e425325bd52055b823c47
+
+./.git/objects/31:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    85 Aug  5 17:21 71e57c66d4526143858550d85a93225238a2c2
+
+./.git/objects/35:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    70 Aug  5 17:21 750a262a0cba77b8a24cb6a5a955ccc4ac20fc
+
+./.git/objects/40:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   241 Aug  5 17:21 54c9a2f19f1f4b59b6f4866169c0ed729362f9
+
+./.git/objects/44:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   124 Aug  5 17:21 64f25b836438dfb8f7989abb536204ea47dc3a
+
+./.git/objects/48:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    36 Aug  5 17:21 90be613d38d3a869bd65244ea1d58388726d89
+
+./.git/objects/57:
+total 40
+drwxr-xr-x   3 adrianoramos  staff     96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff   1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff  17752 Aug  5 17:21 7938ba4736cb12087dc4f9770afdba74c8e465
+
+./.git/objects/5c:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   131 Aug  5 17:21 ea3ed07f013015b32500efe83ec5a6cec41b44
+
+./.git/objects/60:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   556 Aug  5 17:21 7f04e48f59fd4981f667067f5e27ae11e378e5
+
+./.git/objects/78:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    98 Aug  5 17:21 a2bf700cd82c7636b98b52594e9805e03d177a
+
+./.git/objects/7b:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    68 Aug  5 17:21 eef997f4db0f50e34d58af72e294ab9d694c6f
+
+./.git/objects/99:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff  2998 Aug  5 17:21 33f78567d782740e47e72d78833047918db203
+
+./.git/objects/a4:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    83 Aug  5 17:21 eb6d51786fca6d59975f8faef30f88e3ba5672
+
+./.git/objects/a7:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    67 Aug  5 17:21 437dee7ddf02c3845b104e0872207727333af9
+
+./.git/objects/ad:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   249 Aug  5 17:21 0d6c3587001ca6659ddb9bcd11f4be43d32951
+
+./.git/objects/b6:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   591 Aug  5 17:21 cba9a791c7fd71e4e682baca5a8ac551a7df6b
+
+./.git/objects/bf:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   792 Aug  5 17:21 a36129419f8bd7ad73581cb9f07b8c6eec3fcf
+
+./.git/objects/c1:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   135 Aug  5 17:21 7f14716d57a52aff7ca5de7283e2f4e43f769d
+
+./.git/objects/c4:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    68 Aug  5 17:21 3cc9b8ba4e4ae5c6df5ed5e3f199668b7fead0
+
+./.git/objects/d5:
+total 40
+drwxr-xr-x   4 adrianoramos  staff    128 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff   1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   1053 Aug  5 17:21 8dcd31a4c63e3f4dcf39f897f886da7365cf4c
+-r--r--r--   1 adrianoramos  staff  13828 Aug  5 17:21 c66a2c8fbd673391bdae902792fd4a6a776e16
+
+./.git/objects/d8:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   254 Aug  5 17:21 db8d65fd79fd541b2b7eba75c7378af3448f9c
+
+./.git/objects/da:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    65 Aug  5 17:21 4a164c918651cdd1e11dca5cc62c333f097601
+
+./.git/objects/dc:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   134 Aug  5 17:21 3eb4f36931d3ed05bc4d7eddbd06e97c82e640
+
+./.git/objects/eb:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff  1810 Aug  5 17:21 2bd8c0a6a1f6aac70aab76fe50863027907053
+
+./.git/objects/f4:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff   937 Aug  5 17:21 0023f853896244eeb28b33ca6fdc8edeb6ea89
+
+./.git/objects/fc:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    68 Aug  5 17:21 0fa083449b6cb44d123a914f125aad75aff40d
+
+./.git/objects/fe:
+total 8
+drwxr-xr-x   3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+-r--r--r--   1 adrianoramos  staff    91 Aug  5 17:21 2b45415124ec4c223006e19defd56850da95d9
+
+./.git/objects/info:
+total 0
+drwxr-xr-x   2 adrianoramos  staff    64 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+
+./.git/objects/pack:
+total 0
+drwxr-xr-x   2 adrianoramos  staff    64 Aug  5 17:21 .
+drwxr-xr-x  36 adrianoramos  staff  1152 Aug  5 17:21 ..
+
+./.git/refs:
+total 0
+drwxr-xr-x   5 adrianoramos  staff  160 Aug  5 17:21 .
+drwxr-xr-x  13 adrianoramos  staff  416 Aug  6 10:21 ..
+drwxr-xr-x   3 adrianoramos  staff   96 Aug  5 17:21 heads
+drwxr-xr-x   3 adrianoramos  staff   96 Aug  5 17:21 remotes
+drwxr-xr-x   2 adrianoramos  staff   64 Aug  5 17:21 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  5 adrianoramos  staff  160 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff   41 Aug  5 17:21 master
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  5 adrianoramos  staff  160 Aug  5 17:21 ..
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 origin
+
+./.git/refs/remotes/origin:
+total 8
+drwxr-xr-x  3 adrianoramos  staff  96 Aug  5 17:21 .
+drwxr-xr-x  3 adrianoramos  staff  96 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff  32 Aug  5 17:21 HEAD
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 adrianoramos  staff   64 Aug  5 17:21 .
+drwxr-xr-x  5 adrianoramos  staff  160 Aug  5 17:21 ..
+
+./BeerPong:
+total 32
+drwxr-xr-x  8 adrianoramos  staff   256 Aug  6 13:50 .
+drwxr-xr-x  7 adrianoramos  staff   224 Aug  6 14:33 ..
+-rw-r--r--@ 1 adrianoramos  staff  2179 Aug  5 21:16 AppDelegate.swift
+	com.apple.lastuseddate#PS	  16 
+drwxr-xr-x  4 adrianoramos  staff   128 Aug  5 17:21 Assets.xcassets
+drwxr-xr-x  4 adrianoramos  staff   128 Aug  5 17:21 Base.lproj
+-rw-r--r--@ 1 adrianoramos  staff  1643 Aug  6 14:30 Info.plist
+	com.apple.lastuseddate#PS	  16 
+-rw-r--r--@ 1 adrianoramos  staff  5372 Aug  6 14:04 ViewController.swift
+	com.apple.lastuseddate#PS	  16 
+	com.apple.metadata:kMDLabel_wn64iifwrxmopjkoqtw5utj6bi	  89 
+drwxr-xr-x  6 adrianoramos  staff   192 Aug  6 13:50 art.scnassets
+
+./BeerPong/Assets.xcassets:
+total 8
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 .
+drwxr-xr-x  8 adrianoramos  staff  256 Aug  6 13:50 ..
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 AppIcon.appiconset
+-rw-r--r--  1 adrianoramos  staff   62 Aug  5 17:21 Contents.json
+
+./BeerPong/Assets.xcassets/AppIcon.appiconset:
+total 8
+drwxr-xr-x  3 adrianoramos  staff    96 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff   128 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff  1590 Aug  5 17:21 Contents.json
+
+./BeerPong/Base.lproj:
+total 16
+drwxr-xr-x  4 adrianoramos  staff   128 Aug  5 17:21 .
+drwxr-xr-x  8 adrianoramos  staff   256 Aug  6 13:50 ..
+-rw-r--r--  1 adrianoramos  staff  1658 Aug  5 17:21 LaunchScreen.storyboard
+-rw-r--r--@ 1 adrianoramos  staff  2767 Aug  5 17:21 Main.storyboard
+	com.apple.lastuseddate#PS	  16 
+
+./BeerPong/art.scnassets:
+total 2344
+drwxr-xr-x  6 adrianoramos  staff     192 Aug  6 13:50 .
+drwxr-xr-x  8 adrianoramos  staff     256 Aug  6 13:50 ..
+-rw-r--r--@ 1 adrianoramos  staff  198771 Aug  5 18:25 LOGO-04.jpg
+	com.apple.FinderInfo	    32 
+	com.apple.lastuseddate#PS	    16 
+	com.dropbox.attributes	    81 
+	com.dropbox.attrs	    27 
+-rw-r--r--@ 1 adrianoramos  staff   38189 Aug  5 17:21 MainScene.scn
+	com.apple.lastuseddate#PS	    16 
+-rw-r--r--@ 1 adrianoramos  staff   32626 Aug  5 18:25 PLAY-03.jpg
+	com.apple.FinderInfo	    32 
+	com.apple.lastuseddate#PS	    16 
+	com.dropbox.attributes	    81 
+	com.dropbox.attrs	    27 
+-rw-r--r--@ 1 adrianoramos  staff  925104 Aug  5 17:21 Untitled-2-01.jpg
+	com.apple.lastuseddate#PS	    16 
+
+./BeerPong.xcodeproj:
+total 32
+drwxr-xr-x@ 5 adrianoramos  staff    160 Aug  6 14:31 .
+	LastUpgradeCheck	    4 
+	com.apple.FinderInfo	   32 
+	com.apple.lastuseddate#PS	   16 
+drwxr-xr-x  7 adrianoramos  staff    224 Aug  6 14:33 ..
+-rw-r--r--@ 1 adrianoramos  staff  12900 Aug  6 14:31 project.pbxproj
+	com.apple.lastuseddate#PS	   16 
+drwxr-xr-x@ 5 adrianoramos  staff    160 Aug  5 17:21 project.xcworkspace
+	com.apple.lastuseddate#PS	   16 
+drwxr-xr-x  4 adrianoramos  staff    128 Aug  5 17:24 xcuserdata
+
+./BeerPong.xcodeproj/project.xcworkspace:
+total 8
+drwxr-xr-x@ 5 adrianoramos  staff  160 Aug  5 17:21 .
+	com.apple.lastuseddate#PS	 16 
+drwxr-xr-x@ 5 adrianoramos  staff  160 Aug  6 14:31 ..
+	LastUpgradeCheck	  4 
+	com.apple.FinderInfo	 32 
+	com.apple.lastuseddate#PS	 16 
+-rw-r--r--  1 adrianoramos  staff  153 Aug  5 17:21 contents.xcworkspacedata
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 xcshareddata
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:23 xcuserdata
+
+./BeerPong.xcodeproj/project.xcworkspace/xcshareddata:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x@ 5 adrianoramos  staff  160 Aug  5 17:21 ..
+	com.apple.lastuseddate#PS	 16 
+-rw-r--r--  1 adrianoramos  staff  238 Aug  5 17:21 IDEWorkspaceChecks.plist
+
+./BeerPong.xcodeproj/project.xcworkspace/xcuserdata:
+total 0
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:23 .
+drwxr-xr-x@ 5 adrianoramos  staff  160 Aug  5 17:21 ..
+	com.apple.lastuseddate#PS	 16 
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  6 14:32 adrianoramos.xcuserdatad
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 vitordemenighi.xcuserdatad
+
+./BeerPong.xcodeproj/project.xcworkspace/xcuserdata/adrianoramos.xcuserdatad:
+total 56
+drwxr-xr-x  3 adrianoramos  staff     96 Aug  6 14:32 .
+drwxr-xr-x  4 adrianoramos  staff    128 Aug  5 17:23 ..
+-rw-r--r--  1 adrianoramos  staff  25217 Aug  6 14:32 UserInterfaceState.xcuserstate
+
+./BeerPong.xcodeproj/project.xcworkspace/xcuserdata/vitordemenighi.xcuserdatad:
+total 56
+drwxr-xr-x  3 adrianoramos  staff     96 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff    128 Aug  5 17:23 ..
+-rw-r--r--  1 adrianoramos  staff  28172 Aug  5 17:21 UserInterfaceState.xcuserstate
+
+./BeerPong.xcodeproj/xcuserdata:
+total 0
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:24 .
+drwxr-xr-x@ 5 adrianoramos  staff  160 Aug  6 14:31 ..
+	LastUpgradeCheck	  4 
+	com.apple.FinderInfo	 32 
+	com.apple.lastuseddate#PS	 16 
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:24 adrianoramos.xcuserdatad
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 vitordemenighi.xcuserdatad
+
+./BeerPong.xcodeproj/xcuserdata/adrianoramos.xcuserdatad:
+total 0
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:24 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:24 ..
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:24 xcschemes
+
+./BeerPong.xcodeproj/xcuserdata/adrianoramos.xcuserdatad/xcschemes:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:24 .
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:24 ..
+-rw-r--r--  1 adrianoramos  staff  343 Aug  5 17:24 xcschememanagement.plist
+
+./BeerPong.xcodeproj/xcuserdata/vitordemenighi.xcuserdatad:
+total 0
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:24 ..
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 xcdebugger
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 xcschemes
+
+./BeerPong.xcodeproj/xcuserdata/vitordemenighi.xcuserdatad/xcdebugger:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff   91 Aug  5 17:21 Breakpoints_v2.xcbkptlist
+
+./BeerPong.xcodeproj/xcuserdata/vitordemenighi.xcuserdatad/xcschemes:
+total 8
+drwxr-xr-x  3 adrianoramos  staff   96 Aug  5 17:21 .
+drwxr-xr-x  4 adrianoramos  staff  128 Aug  5 17:21 ..
+-rw-r--r--  1 adrianoramos  staff  343 Aug  5 17:21 xcschememanagement.plist
