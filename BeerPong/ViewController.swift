@@ -144,7 +144,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         ballNode.physicsBody?.collisionBitMask = -1
         sceneView.scene.rootNode.addChildNode(ballNode)
         ballNode.physicsBody?.applyForce(direction, asImpulse: true)
-        ballNode.runAction(SCNAction.sequence([SCNAction.wait(duration: 3.0), SCNAction.removeFromParentNode()]))
+        ballNode.runAction(SCNAction.sequence([SCNAction.wait(duration: 2.0), SCNAction.removeFromParentNode()]))
 
     }
 
@@ -174,13 +174,23 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
 extension ViewController: SCNPhysicsContactDelegate {
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
         
-        let contactObject = contact.nodeA.physicsBody!.contactTestBitMask == 3 ? contact.nodeA : contact.nodeB
+        var contactObject: SCNNode!
+        
+        if contact.nodeA.physicsBody!.contactTestBitMask == 3 {
+            contactObject = contact.nodeA
+        } else {
+            contactObject = contact.nodeB
+        }
+        
+        
+        
         
         if contactObject.name == "cup1_sensor" {
             //messageLabel.isHidden = false
+            
             count = count + 1
             messageLabel.text = String(count)
-            print("ACERTOU A BOLINHA!")
+            
         }
        
     }
