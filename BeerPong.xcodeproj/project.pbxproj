@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF3759A922FCB29E00733C1E /* tapPlayButtonSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3759A822FCB29E00733C1E /* tapPlayButtonSong.mp3 */; };
+		CF3759AA22FCB34900733C1E /* University.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF3759AC22FCB34900733C1E /* University.otf */; };
+		CF3759AE22FCC0F700733C1E /* winSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3759AD22FCC0F700733C1E /* winSong.mp3 */; };
+		CF3759B022FCC59100733C1E /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3759AF22FCC59100733C1E /* theme.mp3 */; };
+		CF3DA05F22FC9EE00087C8A5 /* hitTable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3DA05D22FC9EE00087C8A5 /* hitTable.mp3 */; };
+		CF3DA06022FC9EE00087C8A5 /* hitCup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3DA05E22FC9EE00087C8A5 /* hitCup.mp3 */; };
+		CF48720F22FB630B00A7B412 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CF48720D22FB630B00A7B412 /* spark.png */; };
+		CF48721822FB723000A7B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF48721622FB723000A7B412 /* Assets.xcassets */; };
 		CF4DFEF322F8BAE400613CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DFEF222F8BAE400613CCD /* AppDelegate.swift */; };
 		CF4DFEF522F8BAE400613CCD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4DFEF422F8BAE400613CCD /* art.scnassets */; };
 		CF4DFEFA22F8BAE400613CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4DFEF822F8BAE400613CCD /* Main.storyboard */; };
 		CF4DFEFC22F8BAE500613CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4DFEFB22F8BAE500613CCD /* Assets.xcassets */; };
 		CF4DFEFF22F8BAE500613CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4DFEFD22F8BAE500613CCD /* LaunchScreen.storyboard */; };
 		CF4DFF0922F8BBE900613CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DFF0822F8BBE900613CCD /* ViewController.swift */; };
+		CF5AE82222FB752200E25C2C /* Explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = CF5AE82122FB752200E25C2C /* Explosion.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF3759A822FCB29E00733C1E /* tapPlayButtonSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tapPlayButtonSong.mp3; sourceTree = "<group>"; };
+		CF3759AB22FCB34900733C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/University.otf; sourceTree = "<group>"; };
+		CF3759AD22FCC0F700733C1E /* winSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winSong.mp3; sourceTree = "<group>"; };
+		CF3759AF22FCC59100733C1E /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		CF3DA05D22FC9EE00087C8A5 /* hitTable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hitTable.mp3; sourceTree = "<group>"; };
+		CF3DA05E22FC9EE00087C8A5 /* hitCup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hitCup.mp3; sourceTree = "<group>"; };
+		CF48720D22FB630B00A7B412 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CF48721622FB723000A7B412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4DFEEF22F8BAE400613CCD /* BeerPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4DFEF222F8BAE400613CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4DFEF422F8BAE400613CCD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		CF4DFEFE22F8BAE500613CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4DFF0022F8BAE500613CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4DFF0822F8BBE900613CCD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF5AE82122FB752200E25C2C /* Explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = Explosion.scnp; path = ../../../../Downloads/Explosion.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF3759A522FCAE6E00733C1E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF3759AC22FCB34900733C1E /* University.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CF4DFEE622F8BAE400613CCD = {
 			isa = PBXGroup;
 			children = (
+				CF48721622FB723000A7B412 /* Assets.xcassets */,
 				CF4DFEF122F8BAE400613CCD /* BeerPong */,
 				CF4DFEF022F8BAE400613CCD /* Products */,
 			);
@@ -56,13 +83,21 @@
 		CF4DFEF122F8BAE400613CCD /* BeerPong */ = {
 			isa = PBXGroup;
 			children = (
+				CF3759A522FCAE6E00733C1E /* Fonts */,
 				CF4DFEF222F8BAE400613CCD /* AppDelegate.swift */,
 				CF4DFEF422F8BAE400613CCD /* art.scnassets */,
 				CF4DFF0822F8BBE900613CCD /* ViewController.swift */,
 				CF4DFEF822F8BAE400613CCD /* Main.storyboard */,
 				CF4DFEFB22F8BAE500613CCD /* Assets.xcassets */,
 				CF4DFEFD22F8BAE500613CCD /* LaunchScreen.storyboard */,
+				CF3DA05E22FC9EE00087C8A5 /* hitCup.mp3 */,
+				CF3759AF22FCC59100733C1E /* theme.mp3 */,
+				CF3DA05D22FC9EE00087C8A5 /* hitTable.mp3 */,
+				CF3759AD22FCC0F700733C1E /* winSong.mp3 */,
+				CF3759A822FCB29E00733C1E /* tapPlayButtonSong.mp3 */,
+				CF5AE82122FB752200E25C2C /* Explosion.scnp */,
 				CF4DFF0022F8BAE500613CCD /* Info.plist */,
+				CF48720D22FB630B00A7B412 /* spark.png */,
 			);
 			path = BeerPong;
 			sourceTree = "<group>";
@@ -125,10 +160,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5AE82222FB752200E25C2C /* Explosion.scnp in Resources */,
+				CF48720F22FB630B00A7B412 /* spark.png in Resources */,
+				CF3759A922FCB29E00733C1E /* tapPlayButtonSong.mp3 in Resources */,
+				CF48721822FB723000A7B412 /* Assets.xcassets in Resources */,
+				CF3759B022FCC59100733C1E /* theme.mp3 in Resources */,
 				CF4DFEF522F8BAE400613CCD /* art.scnassets in Resources */,
 				CF4DFEFF22F8BAE500613CCD /* LaunchScreen.storyboard in Resources */,
 				CF4DFEFC22F8BAE500613CCD /* Assets.xcassets in Resources */,
 				CF4DFEFA22F8BAE400613CCD /* Main.storyboard in Resources */,
+				CF3759AA22FCB34900733C1E /* University.otf in Resources */,
+				CF3DA05F22FC9EE00087C8A5 /* hitTable.mp3 in Resources */,
+				CF3759AE22FCC0F700733C1E /* winSong.mp3 in Resources */,
+				CF3DA06022FC9EE00087C8A5 /* hitCup.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +191,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CF3759AC22FCB34900733C1E /* University.otf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3759AB22FCB34900733C1E /* Base */,
+			);
+			name = University.otf;
+			sourceTree = "<group>";
+		};
 		CF4DFEF822F8BAE400613CCD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,13 +339,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FLV6P7TG9V;
+				DEVELOPMENT_TEAM = 572YF9FD67;
 				INFOPLIST_FILE = BeerPong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.developer.adrianoramos.BeerPong;
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.adrianoros.BeerPong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +357,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FLV6P7TG9V;
+				DEVELOPMENT_TEAM = 572YF9FD67;
 				INFOPLIST_FILE = BeerPong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.developer.adrianoramos.BeerPong;
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.adrianoros.BeerPong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
