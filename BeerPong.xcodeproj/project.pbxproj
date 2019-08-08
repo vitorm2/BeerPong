@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815A755322FCCE0E0015F686 /* University.otf in Resources */ = {isa = PBXBuildFile; fileRef = 815A755222FCCE0E0015F686 /* University.otf */; };
 		CF3759A922FCB29E00733C1E /* tapPlayButtonSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3759A822FCB29E00733C1E /* tapPlayButtonSong.mp3 */; };
-		CF3759AA22FCB34900733C1E /* University.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF3759AC22FCB34900733C1E /* University.otf */; };
 		CF3759AE22FCC0F700733C1E /* winSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3759AD22FCC0F700733C1E /* winSong.mp3 */; };
 		CF3759B022FCC59100733C1E /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3759AF22FCC59100733C1E /* theme.mp3 */; };
 		CF3DA05F22FC9EE00087C8A5 /* hitTable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF3DA05D22FC9EE00087C8A5 /* hitTable.mp3 */; };
@@ -25,8 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		815A755222FCCE0E0015F686 /* University.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = University.otf; sourceTree = "<group>"; };
 		CF3759A822FCB29E00733C1E /* tapPlayButtonSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tapPlayButtonSong.mp3; sourceTree = "<group>"; };
-		CF3759AB22FCB34900733C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/University.otf; sourceTree = "<group>"; };
 		CF3759AD22FCC0F700733C1E /* winSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winSong.mp3; sourceTree = "<group>"; };
 		CF3759AF22FCC59100733C1E /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
 		CF3DA05D22FC9EE00087C8A5 /* hitTable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hitTable.mp3; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		CF3759A522FCAE6E00733C1E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				CF3759AC22FCB34900733C1E /* University.otf */,
+				815A755222FCCE0E0015F686 /* University.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 				CF4DFEFF22F8BAE500613CCD /* LaunchScreen.storyboard in Resources */,
 				CF4DFEFC22F8BAE500613CCD /* Assets.xcassets in Resources */,
 				CF4DFEFA22F8BAE400613CCD /* Main.storyboard in Resources */,
-				CF3759AA22FCB34900733C1E /* University.otf in Resources */,
+				815A755322FCCE0E0015F686 /* University.otf in Resources */,
 				CF3DA05F22FC9EE00087C8A5 /* hitTable.mp3 in Resources */,
 				CF3759AE22FCC0F700733C1E /* winSong.mp3 in Resources */,
 				CF3DA06022FC9EE00087C8A5 /* hitCup.mp3 in Resources */,
@@ -191,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CF3759AC22FCB34900733C1E /* University.otf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF3759AB22FCB34900733C1E /* Base */,
-			);
-			name = University.otf;
-			sourceTree = "<group>";
-		};
 		CF4DFEF822F8BAE400613CCD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -339,13 +331,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 572YF9FD67;
+				DEVELOPMENT_TEAM = FLV6P7TG9V;
 				INFOPLIST_FILE = BeerPong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.developer.adrianoros.BeerPong;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adrianoramos.BeerPong-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,13 +349,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 572YF9FD67;
+				DEVELOPMENT_TEAM = FLV6P7TG9V;
 				INFOPLIST_FILE = BeerPong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.developer.adrianoros.BeerPong;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adrianoramos.BeerPong-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
